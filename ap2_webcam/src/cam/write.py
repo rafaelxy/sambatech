@@ -3,12 +3,14 @@
 """
 Created on 22 Dec 2012
 
-@author: rcampos
+Modulo de escrita de videos
+
+@author: rafaelxy
 """
 
 import cv2.cv as cv
 
-class Capture():
+class Capture(object):
     def __init__(self, outfile, wnd_name):
         self.__outfile = outfile
         self.__wnd_name = wnd_name
